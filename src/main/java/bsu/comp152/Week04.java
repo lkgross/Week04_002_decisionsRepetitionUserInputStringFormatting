@@ -121,7 +121,7 @@ public class Week04 {
          * (throw an exception) if the argument to the function is not allowed.
          */
         if (n <= 0){
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Only take the log base 2 of a positive number.");
         }
         int power = 1;
         int count = 0;
